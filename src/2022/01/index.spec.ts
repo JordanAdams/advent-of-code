@@ -12,11 +12,11 @@ describe("part1", () => {
 });
 
 describe("part2", () => {
-  // it("should work for the exampleInput", () => {
-  //   expect(part2(exampleInput)).toBe(45000);
-  // });
+  it("should work for the exampleInput", () => {
+    expect(part2(exampleInput)).toBe(45000);
+  });
 
   it("should work for the generated input", () => {
-    expect(part2(generatedInput)).toBe(25577);
+    expect(part2(generatedInput)).toBe(205381);
   });
 });

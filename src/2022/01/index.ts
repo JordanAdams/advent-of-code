@@ -13,7 +13,8 @@ export const part1 = (input: string): number => {
 
 export const part2 = (input: string): number => {
   const totals = parseInput(input).map((inventory) => sum(inventory));
-  const sorted = [...totals].sort();
+  const sorted = [...totals].sort((a, b) => b - a);
 
-  return sum(sorted.slice(-3));
+
+  return sum(sorted.slice(0, 3));
 };
