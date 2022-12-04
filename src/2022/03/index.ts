@@ -63,8 +63,8 @@ export const part1 = (input: string): number => {
 };
 
 export const part2 = (input: string): number => {
-  const lines = input.split("\n").map((line) => line.split("")),
-  const groups = chunk( lines, 3);
+  const lines = input.split("\n").map((line) => line.split(""));
+  const groups = chunk(lines, 3);
 
   const chars = flatten(groups.map((group) => findCommon(group)));
 

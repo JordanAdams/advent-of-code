@@ -17,6 +17,6 @@ describe("part2", () => {
   });
 
   it("should work for generated input", () => {
-    expect(part2(generatedInput)).toBe(0);
+    expect(part2(generatedInput)).toBe(2817);
   });
 });
