@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest src"
+    "test": "jest src",
+    "generate": "./scripts/generate"
   },
   "dependencies": {
     "@types/jest": "^27.0.3",
